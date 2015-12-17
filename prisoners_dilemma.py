@@ -133,12 +133,12 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     ######
     #
-    #This example player always colludes.      
+    #This example player always backstabbes.      
     elif player == 2:
         if getting_team_name:
-            return 'collude'
+            return 'backstabber'
         else:
-            return 'c'
+            return 'b'
 
 def play_tournament(num_players):
     #create a list of zeros, one per player
